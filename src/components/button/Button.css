@@ -1,16 +1,10 @@
-.button {
-  border-radius: 3px;
-  background-color: #2196f3;
-  color: #fff;
-  box-sizing: border-box;
-  font-size: 1rem;
-  padding: 0.75rem;
-  cursor: pointer;
-  transition: all 0.3s;
+.button{
+	font-size: 3.07875rem;
+	font-weight: 700;
+	line-height: 5.5rem;
+	text-align: center;
 }
-.button:hover {
-  background-color: #42a5f5;
-}
-.button.button_mix_form {
-  margin-top: 10px;
+.orange{
+    composes: ornamentOrange from '../../styles/decoration.css';
+    composes: button;
 }

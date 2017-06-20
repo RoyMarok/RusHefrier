@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './styles/document.css';
 import Header from './components/header/Header'
+import CurrentIssue from './components/currentIssue/CurrentIssue'
 
 class App extends Component {
     render() {
@@ -9,7 +10,7 @@ class App extends Component {
             <div className="wrap">
                 <Header />
                 <div className="content">
-                    
+                    <CurrentIssue />
                 </div>
             </div>
 

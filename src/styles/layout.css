@@ -1,0 +1,13 @@
+.grid6{
+    width: 16.515vw;
+}
+.grid3{
+    width: calc(16.515vw * 2);
+}
+.grid2{
+    width: calc(16.515vw * 3);
+}
+.wide{
+	height: 6.8125rem;
+    line-height: 6.8125rem;
+}

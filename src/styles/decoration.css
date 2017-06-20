@@ -1,0 +1,27 @@
+.ornament{
+	background-repeat:	repeat-x;
+	background-size: auto 100%;
+	overflow: hidden;
+	background-position: center;
+}
+.ornamentGrey{
+    composes: wide from './layout.css';
+	background: #333;
+	color: #f5f5f5;
+	background-image: url(../image/svg/ornament_grey.svg);
+    background-repeat:	repeat-x;
+	background-size: auto 100%;
+	overflow: hidden;
+	background-position: center;
+}
+
+.ornamentOrange{
+    composes: wide from './layout.css';
+	background: #FF5722;
+	color: #f5f5f5;
+	background-image: url(../image/svg/ornament_orange.svg);
+    background-repeat:	repeat-x;
+	background-size: auto 100%;
+	overflow: hidden;
+	background-position: center;
+}

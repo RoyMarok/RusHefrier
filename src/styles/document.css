@@ -1,0 +1,39 @@
+
+a, a:hover, a:visited{
+    text-decoration: none;
+    transition: all .3s ease;
+	color: #2196F3;
+}
+a:hover{
+	color: #FF5722;
+	transition: all .3s ease;
+}
+a.bold{
+	font-weight: 700;
+}
+
+.right{
+	text-align: right;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,300&subset=latin,cyrillic-ext);
+
+html{
+	color: #333;
+	font-size: 100%;
+	font-family: 'Open Sans', sans-serif;
+	background: #ded0a1;
+	background: linear-gradient(to right,  #ded0a1 0%,#efdfbb 50%,#ded0a1 100%);
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+*{
+    box-sizing: border-box;
+    vertical-align: top;
+    position: relative;
+}

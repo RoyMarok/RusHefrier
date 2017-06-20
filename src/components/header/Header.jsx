@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
-import Bem from 'bem-react-core';
-import './Header.css';
+import style from './Header.css';
 class Header extends Component{
     constructor(props){
         super(props);
+        this.style = style;
         this.menu = [
             {
                 name: 'собаки',
@@ -34,18 +34,18 @@ class Header extends Component{
     }
     render() {
         return (
-            <Bem block="header">
-                <Bem elem="logo"><a href="/" title="Rus Hefrier - питомник английских кокер спаниэлей"><span></span></a></Bem>
-                <Bem block="menu">
+            <div className={this.style.header}>
+                <div className={this.style.logo}><a href="/" title="Rus Hefrier - питомник английских кокер спаниэлей"><span></span></a></div>
+                <div className={this.style.menu}>
                     {
                         this.menu.map((item, index) => {
                             return (
-                                <Bem elem="menuItem" key={`item_${index}`} mods={item.state.length>0?{view: item.state}:''}><a href={item.href} title={item.name}>{item.name}</a></Bem>
+                                <div className={item.state.length>0?this.style[item.state]:this.style.menuItem} key={`item_${index}`} ><a href={item.href} title={item.name}>{item.name}</a></div>
                             );
                         })
                     }
-                </Bem>
-            </Bem>
+                </div>
+            </div>
         );
     }
 
