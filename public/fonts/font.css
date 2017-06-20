@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Bikham';
+  src: url('fonts/BikhamCyrScript.woff') format('woff'),
+       url('fonts/BikhamCyrScript.ttf') format('truetype'),
+       url('fonts/BikhamCyrScript.svg#BikhamCyrScript') format('svg'),
+	   url('fonts/BikhamCyrScript.woff2') format('woff2'),
+       url('fonts/BikhamCyrScript.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
